@@ -13,8 +13,13 @@ const bucket = new GridFSBucket(db, { bucketName: "boffice" });
 const fileMap: { filename: string; fsPath: string }[] = [
   {
     filename:
-      "OutgoingDocument/gHd1vQsIP8/OutgoingDocument/VwbnfNXIgB/06_QD_NGUYEN LAN HUONG_01-2024-print.pdf",
-    fsPath: "static/print_3.pdf",
+      "OutgoingDocument/uKspSqJlo5/OutgoingDocument/Scj65YJYPx/1.3.2024. Mai Xuân Hương thôi TBM CSHH.pdf",
+    fsPath: "static/294_last.pdf",
+  },
+  {
+    filename:
+      "OutgoingDocument/pSvePyiSGR/OutgoingDocument/Scj65YJYPx/1.3.2024. Mai Xuân Hương thôi TBM CSHH-print.pdf",
+    fsPath: "static/294_print.pdf",
   },
 ];
 

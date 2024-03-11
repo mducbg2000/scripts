@@ -17,7 +17,6 @@ const mailClient = createTransport({
     pass: "rrzytnqltffydyqb",
   },
 });
-
 const fileContent = readFileSync("static/HDSD_eOffice_ver1.pdf");
 console.log(`Read file successful! Content length: ${fileContent.length}`);
 
