@@ -1,6 +1,7 @@
 {
   "extends": "@tsconfig/node20/tsconfig.json",
   "compilerOptions": {
-    "jsx": "react"
+    "jsx": "react-jsx",
+    "jsxImportSource": "hono/jsx",
   }
 }
